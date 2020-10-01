@@ -11,14 +11,3 @@ def create_app():
 
     app.register_blueprint(short_blueprint)
     return app
-
-
-
-
-
-
-
-
-
-
-client = create_app().test_client()

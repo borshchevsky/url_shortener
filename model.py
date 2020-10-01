@@ -11,6 +11,3 @@ class Url(db.Model):
     short_url = db.Column(db.String())
     creation_time = db.Column(db.DateTime(), default=datetime.now())
     used = db.Column(db.Integer(), default=0)
-
-
-
