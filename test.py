@@ -1,4 +1,6 @@
-from shortener import client
+from shortener import create_app
+
+client = create_app().test_client()
 
 
 def test_redirect():
